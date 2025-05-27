@@ -5,6 +5,7 @@ import TheKnight from "../assets/img/theknight.jpg";
 import Film from "../assets/img/Film.jpg";
 import LandingPage from "../assets/img/landingpage.jpg";
 import colorSharp2 from "../assets/img/Background.png"
+import Lariskas from "../assets/img/lariskas.jpg";
 
 export const Projects = () => {
     const projects = [
@@ -35,7 +36,7 @@ export const Projects = () => {
         {
             title: "LarisKas",
             description: "Aplikasi Point of Sale",
-            imgUrl: LandingPage,
+            imgUrl: Lariskas,
             url: "https://github.com/RIlz27/Sablon-Baju.git"
         },
     ];
