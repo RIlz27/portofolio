@@ -6,7 +6,7 @@ import TheKnight from "../assets/img/theknight.jpg";
 import Film from "../assets/img/Film.jpg";
 import LandingPage from "../assets/img/landingpage.jpg";
 import colorSharp2 from "../assets/img/Background.png"
-import Lariskas from "../assets/img/lariskas.png";
+import Lariskas from "../assets/img/Lariskas.png";
 import Asih from "../assets/img/Asih.png";
 import Animasi from "../assets/img/Animasi.png";
 import idrumah from "../assets/img/idrumah.png";
