@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect } from "react";
 import { Container, Nav, Navbar as BootstrapNavbar } from "react-bootstrap";
 import logo from '../assets/img/Rilzy.svg';
@@ -44,12 +45,9 @@ export const NavBar = () => {
                     <span className="navbar-text">
                         <div className="sosial-icon">
                             <a href="https://www.instagram.com/rilz.jhr/"><img src={instagram} alt="Instagram" /></a>
-                            <a href="#https://www.youtube.com/@airiljahran5313"><img src={youtube} alt="YouTube" /></a>
-                            <a href="#https://www.tiktok.com/@rilzy.jhr"><img src={tiktok} alt="TikTok" /></a>
+                            <a href="https://www.youtube.com/@airiljahran5313"><img src={youtube} alt="YouTube" /></a>
+                            <a href="https://www.tiktok.com/@rilzy.jhr"><img src={tiktok} alt="TikTok" /></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}>
-                            <span>Let's connect</span>
-                        </button>
                     </span>
                 </BootstrapNavbar.Collapse>
             </Container>

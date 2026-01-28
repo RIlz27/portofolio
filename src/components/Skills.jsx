@@ -1,3 +1,4 @@
+import React from 'react'
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -56,7 +57,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Frontend Developer" />
-                  <h5>Frontend Developer <br/>(laravel Learning)</h5> 
+                  <h5>Frontend Developer</h5> 
                 </div>
               </Carousel>
             </div>
