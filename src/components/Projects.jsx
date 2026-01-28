@@ -9,7 +9,7 @@ import colorSharp2 from "../assets/img/Background.png"
 import Lariskas from "../assets/img/Lariskas.png";
 import Asih from "../assets/img/Asih.png";
 import Animasi from "../assets/img/Animasi.png";
-import idrumah from "../assets/img/idrumah.png";
+import idrumah from "../assets/img/Idrumah.png";
 
 export const Projects = () => {
     const projects = [
