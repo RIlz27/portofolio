@@ -10,6 +10,7 @@ import Lariskas from "../assets/img/Lariskas.png";
 import Asih from "../assets/img/Asih.png";
 import Animasi from "../assets/img/Animasi.png";
 import idrumah from "../assets/img/Idrumah.png";
+import GoRun from "../assets/img/GoRun.png";
 
 export const Projects = () => {
     const projects = [
@@ -41,8 +42,9 @@ export const Projects = () => {
             title: "LarisKas",
             description: "Aplikasi Point of Sale",
             imgUrl: Lariskas,
-            url: "https://lariskas.zielabs.id/"
+            url: "https://www.figma.com/design/4MuhBukH4LvaE4sTO0sKac/LarisKas?node-id=0-1&t=SAGCXATHMKFeM5eF-1"
         },
+        
         {
             title: "Asih",
             description: "My Projek short film",
@@ -61,11 +63,17 @@ export const Projects = () => {
             imgUrl: idrumah,
             url: "https://github.com/flameblue59/idrumah-marketplace.git"
         },
+        {
+            title: "GoRun",
+            description: "E-Commerce Platform",
+            imgUrl: GoRun,
+            url: "https://www.figma.com/design/o6oM8pjiRN1ex0JM4o447C/GoRun?node-id=31-759&t=yt0uBKMsZgUpiA1X-1"
+        },
     ];
 
     // categorize projects for the three tabs
     const websiteProjects = [projects[0], projects[3], projects[1], projects[7]];
-    const uiuxProjects = [projects[4]];
+    const uiuxProjects = [projects[4], projects[8]];
     const filmProjects = [projects[2], projects[5], projects[6]];
 
     return (
